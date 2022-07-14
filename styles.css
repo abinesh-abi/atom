@@ -1,0 +1,193 @@
+* {
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+.atom-nav-bg {
+  background-color: #584b4f;
+}
+
+.atom-link {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+.atom-link:hover {
+  color: #81c08b;
+}
+.atom-nav-width {
+  max-width: 900px;
+}
+body {
+  background-color: #353335;
+  padding-top: 10vh;
+  color: #efdab9;
+  background-color: #353335;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-1 {
+  max-width: 900px;
+  position: relative;
+}
+.body-first-div {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.circle {
+  width: 366px;
+  height: 366px;
+  background-repeat: no-repeat;
+  background-image: url(https://atom.io/assets/index-logo-112585a3112ec646fa9e426f835b1626094f57354fd7dd059a8f455881654ad2.svg),
+    url(https://atom.io/assets/index-portal-sides-8f3d2e2077a1fb786c0bed45cc8f9e5ead36d291c4485ff8f00d8d713a3a7499.svg);
+  background-position: center;
+  position: relative;
+  margin-right: 20px;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+}
+.circle > img {
+  position: absolute;
+}
+.rotate{
+  animation: rotate 1s linear infinite;
+will-change: transform;
+
+}
+.install-div {
+  max-width: 230px;
+  max-height: 438px;
+  border: 1px solid #4e4b4d;
+  border-radius: 30px;
+  /* margin-left: 60px; */
+  /* padding: 0; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.small-box {
+  border-bottom: 1px solid #4e4b4d;
+  text-align: center;
+}
+.download-btn {
+  color: #343233;
+  background-color: #ffd152;
+  width: 198px;
+ 
+  margin-bottom: 6px;
+}
+.download-btn:hover {
+  color: #343233;
+  background-color: #ffc31f;
+}
+.green-text {
+  color: #78b0a0;
+}
+
+.alien {
+  position: absolute;
+}
+.section-2 {
+  background-image: url("https://atom.io/assets/index-teletype-graphic-cf60b66bbb2b00e1e4e9f8020b9fa59b6084d77ed4c7a3c4e0cdab5848aabca7.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 1140px) center;
+  padding-top: 11vh;
+}
+.sec-2-col {
+  display: flex;
+  justify-content: center;
+}
+.sec-2-para {
+  text-align: center;
+  margin: 5vh 0px;
+}
+.head-2{
+  display: flex;
+justify-content: center;
+/* text-align: center; */
+padding-top: 5vh
+}
+.section-3 {
+  background-image: url(https://atom.io/assets/index-github-graphic-76719876301655e713fffcfb596504d5d0f6aced6698e5c26d39251682654f6a.svg);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 550px) center;
+  margin-top: 11vh;
+}
+
+.section-4 {
+  display: flex;
+  justify-content: center;
+}
+.sec-4-col {
+  display: flex;
+  justify-content: center;
+  max-width: 1087px;
+}
+.section-5 {
+  /* background-color: #2c2a2b; */
+  /* border: 1px solid dimgray; */
+  /* border-radius: 10px; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: auto;
+  margin-bottom: 20px;
+}
+.sec-5-col{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 500px;
+
+}
+.sec-5-col div{
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+.sec-5-col a{
+  text-decoration: none;
+}
+.sec-5-col a:hover{
+  color: #ebac00;
+}
+.footer{
+ background-color: #fff; 
+ color: black;
+  max-width: 1087px;
+
+}
+.footer-child{
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-child div{
+  display: flex;
+flex-wrap: wrap;
+}
+.footer p+p{
+  padding-left: 26px;
+}
+@media screen and (max-width: 380px) {
+  .footer{
+    width: 13rem;
+  }
+  .scn-shot{
+    width: 275px;
+  }
+  .circle{
+  width: 300px;
+  height: 300px;
+  }
+  .circle > img {
+  position: absolute;
+  width: 280px;
+  height: 280px;
+}
+}
